@@ -1,0 +1,58 @@
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: #404040;
+    font-size: 16px;
+}
+  
+section {
+    margin: .5rem 0;
+    padding: 2rem;
+    background-color: #f5dfe5;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #FFD3E7;
+    font-size: 4em;
+}
+
+h2, h3, p, li {
+    font-family: Verdana, Arial, sans-serif;
+    color: #404040;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p, li {
+    font-size: 1.2em;
+}
+
+header {
+    margin: .5rem 0;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    background-color: #404040;
+}
+
+.links {
+    color: #696969;
+    word-wrap: break-word;
+}
+
+.subsection {
+    margin-top: 2rem;
+    background-color: #f7f0f2;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin:auto
+}
