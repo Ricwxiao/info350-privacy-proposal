@@ -13,7 +13,7 @@ body {
 }
   
 section {
-    margin: 3em 5em;
+    margin: 1em 5em;
     padding: 1.5em 3em 2.5em;
     background-color: rgb(218, 215, 205);
     /* border-radius: 25px; */
@@ -42,15 +42,25 @@ h2, h3, p, li {
 
 h2 {
     font-size: 28pt;
+    margin-left: 2.2em;
 }
 
 h3 {
     font-size: 18pt;
 }
 
+h4 {
+    font-size: 14pt;
+    margin: 0;
+}
+
 p {
     font-size: 12pt;
     margin-bottom: 2em;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
 }
 
 .banner {
@@ -64,9 +74,15 @@ p {
     box-shadow: 0 10px 8px rgb(0, 0, 0, .23), 0 10px 8px rgba(0, 0, 0, .16);
 }
 
-.links {
-    color: #696969;
+a {
+    color: #404040;
+    font-weight: bold;
     word-wrap: break-word;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: .2em solid #404040;
 }
 
 .subsection {
